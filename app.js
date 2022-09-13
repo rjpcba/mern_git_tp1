@@ -29,6 +29,16 @@ function getCountryTranslatedName(isoCode, language) {
  */
 function getCountriesBySubregion(subregion) {
     //Complete with your code
+
+    var countrySubRegion = [];
+    countries.forEach(element => {
+        if (element.subregion == subregion) {
+            countrySubRegion.push(element); // For "all de countries", I understan the complete country object
+            //countrySubRegion.push(element.nome); ---> If it is only the name of the  country
+        }
+    });
+
+    return countrySubRegion;
 }
 
 function main() {
