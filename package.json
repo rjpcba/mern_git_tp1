@@ -1,0 +1,12 @@
+{
+  "name": "tp1_mern",
+  "version": "1.0.0",
+  "description": "TP1 git",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pablo Cordoba",
+  "license": "MIT"
+}
